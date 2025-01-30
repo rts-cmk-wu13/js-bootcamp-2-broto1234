@@ -52,3 +52,7 @@ label {
 #buttons button:focus {
 	outline: none;
 }
+
+#buttons .active--bgc {
+	background-color: rgb(129, 240, 129);
+}
