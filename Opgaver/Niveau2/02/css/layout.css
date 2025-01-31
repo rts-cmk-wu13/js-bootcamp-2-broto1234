@@ -1,0 +1,29 @@
+main {
+  width: 90%;
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+.display-gridOne {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 670px) and (max-width:900px) {
+  .display-gridTab {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+}
+
+@media screen and (min-width: 901px) {
+  .display-gridDisplay {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+}

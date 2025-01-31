@@ -1,0 +1,27 @@
+.product {
+  background-color: rgb(13, 13, 63);
+  border-radius: 0.5rem;
+  /* overflow: hidden; */
+}
+
+.product__image {
+  height: 10rem;
+}
+
+.product__info, .product__controls {
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+}
+
+button {
+  padding-inline: 1rem;
+  font-size: 1.5rem;
+}
+
+.product__quantity {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.2rem 0.6rem;
+  background-color: rgb(244, 56, 56);
+}
